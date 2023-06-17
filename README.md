@@ -75,3 +75,8 @@ python manage.py migrate
 ```
 poetry run python manage.py runserver
 ```
+
+### Документация доступна по адресам:
+[http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/)
+
+[http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/)
