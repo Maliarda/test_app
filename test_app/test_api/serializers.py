@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from test_api.models import Participant, IQTestResult, EQTestResult
+from test_api.models import EQTestResult, IQTestResult, Participant
 
 
 class ParticipantSerializer(serializers.ModelSerializer):
@@ -7,16 +7,16 @@ class ParticipantSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Participant
-        fields = ['login', 'id']
+        fields = ["login", "id"]
 
 
 class IQTestResultSerializer(serializers.ModelSerializer):
     class Meta:
         model = IQTestResult
-        fields = ('score', 'time_taken')
+        fields = ("score", "time_taken")
 
 
 class EQTestResultSerializer(serializers.ModelSerializer):
     class Meta:
         model = EQTestResult
-        fields = ('letters', 'time_taken')
+        fields = ("letters", "time_taken")
