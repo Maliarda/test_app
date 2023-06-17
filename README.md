@@ -60,6 +60,7 @@ POSTGRES_USER=тут_ваш_пользователь_БД
 POSTGRES_PASSWORD=тут_ваш_пароль_от_БД
 POSTGRES_HOST=localhost  
 POSTGRES_PORT=5432
+SECRET_KEY=тут_ваш_секретный_ключ
 ```
 
 ### Применение миграций
